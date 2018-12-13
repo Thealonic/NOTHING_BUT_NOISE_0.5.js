@@ -1,0 +1,141 @@
+### exported: Tue Dec  4 12:36:54 2018
+### from:     Arnold 5.0.1.0 [8ea063c7] darwin clang-4.0.0 oiio-1.7.15 osl-1.9.0 vdb-4.0.0 clm-1.0.3.513 rlm-12.2.2 2017/06/27 17:17:34
+### host app: MtoA 2.0.1 2ad5768c (master) Maya 2018
+
+
+
+options
+{
+ AA_samples 3
+ outputs "RGBA RGBA defaultArnoldFilter@gaussian_filter defaultArnoldDriver@driver_exr.RGBA"
+ xres 960
+ yres 540
+ texture_per_file_stats on
+ texture_searchpath "/Users/djackson4/Documents/maya/projects/default/sourceimages"
+ texture_automip off
+ texture_specular_blur 0
+ camera "perspShape"
+ color_manager "defaultColorMgtGlobals"
+ procedural_searchpath "/Users/djackson4/Documents/maya/projects/default/"
+ GI_diffuse_depth 1
+ GI_specular_depth 1
+ GI_transmission_depth 8
+ declare frame constant FLOAT
+ frame 1
+ declare render_layer constant STRING
+ render_layer "defaultRenderLayer"
+ declare fps constant FLOAT
+ fps 24
+}
+
+gaussian_filter
+{
+ name defaultArnoldFilter@gaussian_filter
+ width 2
+}
+
+driver_exr
+{
+ name defaultArnoldDriver@driver_exr.RGBA
+ filename "/Users/djackson4/Documents/maya/projects/default/images/NOTHINGBUTNOISERE MERGE Stu.exr"
+ compression "zip"
+ half_precision off
+ tiled off
+ color_space ""
+ preserve_layer_name off
+ autocrop off
+ append off
+}
+
+color_manager_syncolor
+{
+ name defaultColorMgtGlobals
+ native_catalog_path "/Applications/Autodesk/maya2018/synColor"
+ custom_catalog_path "/Users/djackson4/Library/Preferences/Autodesk/maya/synColor/Shared/"
+ rendering_color_space "scene-linear Rec 709/sRGB"
+}
+
+polymesh
+{
+ name pasted__pasted__pCube1Shape
+ visibility 255
+ sidedness 255
+ receive_shadows on
+ self_shadows on
+ matrix
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ shader "initialShadingGroup"
+ opaque on
+ matte off
+ id 3132635463
+ nsides 18 1 b85UINT
+B!%<_l4$$$$(%<_
+ vidxs 72 1 b85UINT
+B$ZuK*%<ho2%s\>:$$-?2$vMr4%<MT0'7C1J'n6UR(P*$Z&UP%R'RpXT'mp:P)helj*JY;r+,L`%)1r`r*/>>t*J=up
+ nidxs 72 1 b85UINT
+B$v2N*&9nA:'RU4J(k<'Z*.woj+G^c%,`EV5.$,IE/<h<U0UO/e1n5wu31qk04JX^@5c?QP7'&D`8?b7p9XI++:q/s;
+ uvidxs 72 1 b85UINT
+B$ZuK*%<ho2%s\>:&UObB$w/J=(3BP?)M/Kb*.wlj*ek;r+G^`%)2f>t,_HSx.$,IE.ZtjM/<h9U/s[]]-^c<W16EQ[
+ shidxs 18 1 BYTE
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ vlist 24 1 b85VECTOR
+a_R=gaw)GL89+]caQ54iasd.n89+]ca_R=g8iUt289+]caQ54i8lr3`89+]ca_R=g8iUt2aDq99aQ54i8lr3`aDq99a_R=gaw)GLaDq99aQ54iasd.naDq99aDq99b)F0:89+]c89+]cb'cNM89+]caDq998qTr289+]c89+]c8s8Qt89+]caDq998qTr2aDq9989+]c8s8QtaDq99aDq99b)F0:aDq9989+]cb'cNMaDq998EC`0b.nAv89+]c8Sa;5b-6`289+]c8EC`08vi2'89+]c8Sa;58xLfi89+]c8EC`08vi2'aDq998Sa;58xLfiaDq998EC`0b.nAvaDq998Sa;5b-6`2aDq99
+ nlist 72 1 b85VECTOR
+zzyzzyzzyzzyaJ?t]8>wUKzaJ?t]8>wUKzaJ?t]8>wUKzaJ?t]8>wUK!$$$$$$$$$'aRT=dzzaRT=dzzaRT=dzzaRT=d8>IY&aJmc[z8>IY&aJmc[z8>IY&aJmc[z8>IY&aJmc[z8Fcb8zz8Fcb8zz8Fcb8zz8Fcb8zzaRT=dzzaRT=dzzaRT=dzzaRT=d!$$$$$$$$$(yzzyzzyzzyaJ?t`8>wUGzaJ?t`8>wUGzaJ?t`8>wUGzaJ?t`8>wUG!$$$$$$$$$'aRT=dzzaRT=dzzaRT=dzzaRT=d8>IXnaJmcfz8>IXnaJmcfz8>IXnaJmcfz8>IXnaJmcfz8Fcb8zz8Fcb8zz8Fcb8zz8Fcb8zzaRT=dzzaRT=dzzaRT=dzzaRT=d!$$$$$$$$$(yzzyzzyzzyaJ?t`8>wUGzaJ?t`8>wUGzaJ?t`8>wUGzaJ?t`8>wUGz]To8izaRT=d]To8jzaRT=d]To8jzaRT=d]To8izaRT=d8>IY&aJmc[z8>IY&aJmc[z8>IY&aJmc[z8>IY&aJmc[zyzzyzzyzzyzzaRT=dzzaRT=dzzaRT=dzzaRT=dzz
+ uvlist 42 1 b85VECTOR2
+82:0xz8<Nt.z82:0x8+HY88<Nt.8+HY882:0x89+]c8<Nt.89+]c82:0x8?r5N8<Nt.8?r5N82:0xy8<Nt.y8C@Knz8C@Kn8+HY87reTbz7reTb8+HY882:0xz8<Nt.z8<Nt.8+HY882:0x8+HY88<Nt.89+]c82:0x89+]c8<Nt.8?r5N82:0x8?r5N8<Nt.y82:0xy8C@Knz8C@Kn8+HY87reTbz7reTb8+HY882:0xz8<Nt.z8<Nt.8+HY882:0x8+HY88<Nt.89+]c82:0x89+]c8<Nt.8?r5N82:0x8?r5N8<Nt.y82:0xy8C@Knz8C@Kn8+HY87reTbz7reTb8+HY8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare mtoa_shading_groups constant ARRAY NODE
+ mtoa_shading_groups "initialShadingGroup"
+}
+
+MayaShadingEngine
+{
+ name initialShadingGroup
+ beauty lambert1
+}
+
+lambert
+{
+ name lambert1
+ Kd 0.800000012
+ Kd_color 0.5 0.5 0.5
+ opacity 1 1 1
+}
+
+persp_camera
+{
+ name perspShape
+ matrix
+ 0.645457685 0 0.763796031 0
+ 0.559861243 0.680230379 -0.473119438 0
+ -0.519557238 0.732998371 0.439059913 0
+ -22.1467419 31.3686829 32.7905197 1
+ near_clip 0.100000001
+ far_clip 10000
+ screen_window_min -1 -1
+ screen_window_max 1 1
+ shutter_start 0
+ shutter_end 0
+ shutter_type "box"
+ rolling_shutter "off"
+ rolling_shutter_duration 0
+ motion_start 0
+ motion_end 0
+ exposure 0
+ fov 54.4322243
+ focus_distance 1
+ aperture_size 0
+ aperture_blades 0
+ aperture_rotation 0
+ aperture_blade_curvature 0
+ aperture_aspect_ratio 1
+ uv_remap 0 0 0 0
+ radial_distortion 0
+}
+
